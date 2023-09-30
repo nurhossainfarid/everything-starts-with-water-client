@@ -9,10 +9,12 @@ export default {
     themes: [
       {
         mytheme: {
+          primary: '#2A99FF',
           secondary: "#9333ea",
           accent: "#ec4899",
           neutral: "#e5e7eb",
           "base-100": "#ffffff",
+          button: '#0085FA'
         },
       },
       "white",

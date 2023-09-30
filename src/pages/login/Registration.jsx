@@ -5,7 +5,7 @@ import LoginAnimation from './Animation.json'
 import Logo from '../../images/hydrospare_Logo.svg';
 import './Login.css';
 
-const Login = () => {
+const Registration = () => {
   const onSubmit = (data) => {
     console.log(data);
   }
@@ -117,4 +117,4 @@ const Login = () => {
     </div>
 }
 
-export default Login;
+export default Registration;
