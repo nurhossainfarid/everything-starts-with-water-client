@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import {useForm} from 'react-hook-form'
 import Lottie from 'lottie-react';
-import LoginAnimation from './Animation.json'
+import LoginAnimation from '../../animation/earthAnimation.json'
 import Logo from '../../images/hydrospare_Logo.svg';
 import './Login.css';
 
@@ -14,18 +14,20 @@ const Login = () => {
     formState: { errors },
     handleSubmit,
   } = useForm();
-    return <div className="login_bg relative h-screen">
+    return <div className="login_bg relative h-full">
       <div className="absolute bg-black w-full h-full opacity-20"></div>
       <section >
         <div className="hero py-36">
           <div className="hero-content flex-col lg:flex-row-reverse w-full">
             <div className="card flex-shrink-0 shadow-2xl login_glass md:w-3/4">
-              <div className="flex flex-col justify-center items-center pt-10">
-                <img className="w-24" src={Logo} alt="" />
-                <h1 className="text-5xl text-white font-bold -mt-3">Login</h1>
-              </div>
               <div className="card-body grid grid-cols md:grid-cols-2 gap-5 items-center">
                 <div>
+                  <Lottie loop={true} animationData={LoginAnimation}></Lottie>
+                </div>
+                <div>
+                <div className="py-10">
+                  <h1 className="text-5xl text-white font-bold">Login</h1>
+                </div>
                   <form className='flex flex-col gap-3' onSubmit={handleSubmit(onSubmit)} 
                    action="">
                       {/* email */}
@@ -105,9 +107,6 @@ const Login = () => {
                     <div className="form-control mt-6 flex flex-col gap-5">
                     </div>
                   </form>
-                </div>
-                <div>
-                  <Lottie loop={true} animationData={LoginAnimation}></Lottie>
                 </div>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import CustomLink from "../../../shared/CustomLink/CustomLink";
 import { Link } from "react-router-dom";
+import logo from '../../../images/hydrospare_Logo.png';
 import './Header.css'
 
 const Header = () => {
@@ -58,9 +59,17 @@ const Header = () => {
             </div>
             <Link
               to="/home"
-              className="bg-none normal-case text-md md:text-xl font-semibold"
+              className="flex items-center"
             >
-              Everything Start With Water
+              <div>
+                <img className="w-24" src={logo} alt="" />
+              </div>
+              <div>
+                <div className="flex gap-1 text-5xl font-bold">
+                <span>W</span><span>T</span><span>E</span><span>G</span>
+                </div>
+                <p className="pl-1">Water The Earth Gift</p>
+              </div>
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">

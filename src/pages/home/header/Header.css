@@ -5,8 +5,15 @@ nav {
     z-index: 9999;
     transition:  0.32s ease-in-out;
     color: white;
-    background: rgba(33, 33, 33, 0.375);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    /* background: rgba(113, 167, 248); */
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(0.4px);
+    -webkit-backdrop-filter: blur(0.4px); */
+}
+
+nav.scrolled {
+    padding: 0px 0;
+    background: rgb(113, 167, 248, 0.7);
+    /* background: rgb(145 28 185); */
+    /* backdrop-filter: blur(1.5px); */
 }
