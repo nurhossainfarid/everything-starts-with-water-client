@@ -1,6 +1,8 @@
 import Lottie from 'lottie-react';
 import EarthAnimation from '../../animation/WaterDrop.json'
+import QuizzesAnimation from '../../animation/QuizzesAnimation4.json'
 import './Home.css'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return <div className="relative home_bg">
@@ -78,8 +80,30 @@ const Home = () => {
                 <h1>Solution</h1>
             </section>
             {/* Quiz */}
-            <section>
-                <h1>Quiz</h1>
+            <section className="grid grid-cols-1 md:grid-cols-2 items-center">
+                <div>
+                <h1 className="text-5xl text-white font-bold ">Quizzes</h1>
+                    <p className='text-lg text-gray-100 my-10'>
+                        Earth has 370 quintillion gallons of
+                        water - but only 0.01% of that is 
+                        freshwater that we can use. As climate change alters the global 
+                        water cycle, this precious resource is in danger of becoming even 
+                        more scarce. Your challenge is to create a visual tool to help 
+                        students better understand the complete path of water across the 
+                        entire Earth system and how the availability of this critical 
+                        resource is affected by our changing climate....
+                    </p>
+                    <button className="btn btn-primary text-white text-lg hover:bg-white 
+                     hover:text-primary hover:border-white ">
+                        <Link to="/quizzes">
+                            Take Quizzes
+                        </Link>
+                     </button>
+                </div>
+                <div>
+                    <Lottie  loop={true} animationData={QuizzesAnimation}> 
+                   </Lottie>
+                </div>
             </section>
             {/* Blogs */}
             <section>
