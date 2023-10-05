@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto:ital,wght@0,400;1,500&display=swap');
+
+.font_outfit {
+    font-family: 'Outfit', sans-serif;
+}
+
+.font_roboto {
+    font-family: 'Roboto', sans-serif;
+}

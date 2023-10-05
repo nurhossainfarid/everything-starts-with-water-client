@@ -3,5 +3,5 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
-    background:  #2a98ffdd;
+    background:  linear-gradient(to right, rgb(55, 111, 233), #2a98ffdd);
 }
