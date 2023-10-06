@@ -7,6 +7,9 @@ import Login from "../pages/login/Login";
 import Registration from "../pages/login/Registration";
 import Quizzes from "../pages/quizzes/Quizzes";
 import About from "../pages/about/About";
+import Blogs from "../pages/blogs/Blogs";
+import WaterCycleBlogs from "../pages/blogs/WaterCycleBlogs";
+import ProblemsBlogs from "../pages/blogs/ProblemsBlogs";
 
 const App = () => {
     return <div className="">
@@ -19,8 +22,11 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/registration" element={<Registration />} />
             <Route path="/quizzes" element={<Quizzes />} />
+            <Route path="/blogs" element={<Blogs />} >
+                <Route index element={<WaterCycleBlogs />} />
+                <Route path="problemsBlogs" element={<ProblemsBlogs />} />
+            </Route>
         </Routes>
-        <Footer />
     </div>
 }
 
