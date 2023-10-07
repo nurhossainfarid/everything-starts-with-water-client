@@ -29,8 +29,8 @@ const Games = () => {
              hover:border-none animate-bounce'>
                 <a target='_blank' 
                  href="https://www.canva.com/design/DAFvxyo4mlE/z6sfxc5ARtcrsTLgVr815Q/view? 
-                  mode=prototype&fbclid=IwAR3oFph91KWHhlugl5ZGPdxktZkhHfYPyuY- 
-                   hWQvYx8krc6_Zc_hfINUguo#untitled-page">Demo Game</a>
+                  mode=prototype&fbclid=IwAR3mgvgvlaB3ZKl84sniF3xMS67gJ2Em0EsZRxnwhzh8- 
+                   3HbSugq-iDfquk">Demo Game</a>
             </button>  
         </section>
     </div>
