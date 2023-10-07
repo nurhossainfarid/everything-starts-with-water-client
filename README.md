@@ -1,4 +1,9 @@
-# React + Vite
+# Project Title
+"Water: The Earth’s Gift"
+
+# About
+Introducing "Water: The Earth’s Gift" – a cutting-edge web application designed to educate and engage users in understanding the complex dynamics of the water cycle, addressing critical water scarcity challenges and climate change's significant impact in this regard.” Water” is a dynamic and interactive web application that visualizes the water cycle, explores the issue of water scarcity and offers practical solutions to this significant problem. The web application is made for people of various ages and academic backgrounds. The application uses engaging quizzes and puzzles to teach users about the importance of water conservation and sustainability.
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

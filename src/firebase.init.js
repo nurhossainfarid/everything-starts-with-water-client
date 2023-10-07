@@ -1,24 +1,25 @@
+import { getAuth } from "firebase/auth";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDOvbTovPIQQQF0iY45csHLOIzgBtKfc2w",
-  authDomain: "water-the-earth-gift.firebaseapp.com",
-  projectId: "water-the-earth-gift",
-  storageBucket: "water-the-earth-gift.appspot.com",
-  messagingSenderId: "80592615664",
-  appId: "1:80592615664:web:db810ae72ae1307cc66a35",
-  measurementId: "G-JLMKMS06TC"
+  apiKey: "AIzaSyDZfqBSEJbLjvxqAdd7iC45vdStsz1Ud0s",
+  authDomain: "water-the-earth-gift-1066d.firebaseapp.com",
+  projectId: "water-the-earth-gift-1066d",
+  storageBucket: "water-the-earth-gift-1066d.appspot.com",
+  messagingSenderId: "253519683742",
+  appId: "1:253519683742:web:eb6def17c7e2b20d9d9b8f",
+  measurementId: "G-96RE24D5Z6"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 // auth 
 const auth = getAuth(app)
