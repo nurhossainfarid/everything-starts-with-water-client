@@ -24,6 +24,15 @@ const Games = () => {
                 <Lottie  loop={true} animationData={ComingAnimation} /> 
             </div>
         </section>
+        <section className='flex justify-center mt-10'>
+            <button className='btn bg-white text-primary hover:bg-primary hover:text-white 
+             hover:border-none animate-bounce'>
+                <a target='_blank' 
+                 href="https://www.canva.com/design/DAFvxyo4mlE/z6sfxc5ARtcrsTLgVr815Q/view? 
+                  mode=prototype&fbclid=IwAR3oFph91KWHhlugl5ZGPdxktZkhHfYPyuY- 
+                   hWQvYx8krc6_Zc_hfINUguo#untitled-page">Demo Game</a>
+            </button>  
+        </section>
     </div>
 </div>
 }
