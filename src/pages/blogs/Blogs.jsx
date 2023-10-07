@@ -28,7 +28,7 @@ const Blogs = () => {
                       Problems
                     </CategoryLink>
                     <CategoryLink
-                      to="/blogs/climateChange"
+                      to="/blogs/climateBlogs"
                       className="px-2 md:px-5 py-1 md:py-3 rounded-none text-md md:text-lg font-semibold"
                     >
                       Climate Change

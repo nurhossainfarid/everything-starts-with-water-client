@@ -10,6 +10,7 @@ import About from "../pages/about/About";
 import Blogs from "../pages/blogs/Blogs";
 import WaterCycleBlogs from "../pages/blogs/WaterCycleBlogs";
 import ProblemsBlogs from "../pages/blogs/ProblemsBlogs";
+import ClimateBlogs from "../pages/blogs/ClimateBlogs";
 
 const App = () => {
     return <div className="">
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/blogs" element={<Blogs />} >
                 <Route index element={<WaterCycleBlogs />} />
                 <Route path="problemsBlogs" element={<ProblemsBlogs />} />
+                <Route path="climateBlogs" element={<ClimateBlogs />} />
             </Route>
         </Routes>
     </div>
